@@ -6,3 +6,6 @@ before_script:
   - travis_retry composer install --no-interaction --prefer-source --dev
 
 script: vendor/bin/phpunit -c phpunit.dist.xml
+
+after_success:
+  - travis_retry php vendor/bin/coveralls --coverage_clover build/logs/clover.xml -v
