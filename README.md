@@ -1,6 +1,8 @@
 # Settings
 A very simple library for managing application settings with the so-called dot notation. Mostly used by my personal projects.
 
+[![Travis](https://img.shields.io/travis/EdwinHoksberg/Settings.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/EdwinHoksberg/Settings) [![Coveralls](https://img.shields.io/coveralls/EdwinHoksberg/Settings.svg?maxAge=2592000?style=flat-square)](https://coveralls.io/github/EdwinHoksberg/Settings)
+
 ## Installation
 #### With composer
 Execute this command in your terminal:
