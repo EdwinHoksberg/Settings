@@ -10,19 +10,19 @@ Execute this command in your terminal:
 composer require edwinhoksberg/settings
 ```
 Or add this line to your composer.json `require` section:
-```
+```json
 "edwinhoksberg/settings": "~1.0"
 ```
 And run `composer update`
 
 #### Without composer
 Just require the `Settings.php` file in your project:
-```
+```php
 require 'src/Settings.php';
 ```
 
 ## How to use
-```
+```php
 // settings.php should just be a return statement with an array.
 // See tests/fixtures/settings.php for an example.
 Settings::loadFromFile('settings.php');
