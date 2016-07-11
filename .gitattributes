@@ -1,0 +1,7 @@
+# Auto-detect text files, ensure they use LF.
+*       text=auto eol=lf
+
+/tests          export-ignore
+/phpunit.xml    export-ignore
+/.gitignore     export-ignore
+/.gitattributes export-ignore

@@ -1,0 +1,21 @@
+{
+    "name": "edwinhoksberg/settings",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edwin Hoksberg",
+            "email": "edwin@edwinhoksberg.nl"
+        }
+    ],
+    "autoload": {
+        "classmap": [ "src/" ]
+    },
+    "require": {
+        "php": ">= 7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "satooshi/php-coveralls": "^1.0"
+    }
+}
